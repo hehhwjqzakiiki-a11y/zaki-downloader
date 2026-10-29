@@ -13,6 +13,7 @@ HTML_PAGE = """
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zaki Downloader</title>
+    <meta name="google-site-verification" content="F5u7xgnOmPo0HxaVMG1_iWCesabDsyQ02jYUJvzra5Y" />
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
     <style>
         * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Cairo', sans-serif; }
