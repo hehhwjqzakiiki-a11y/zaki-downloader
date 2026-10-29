@@ -1,4 +1,4 @@
-from flask import Flask, request, send_file, render_template_string
+from flask import Flask, request, send_file, render_template_string, send_from_directory
 import yt_dlp
 import os
 import glob
@@ -84,6 +84,8 @@ def download_video():
         error_msg = str(e)
         print(f"\n❌ الخطأ: {error_msg}\n")
         return render_template_string(HTML_PAGE, message=f"Error: {error_msg}", msg_type="error")
-
+@app.route('/sw.js')
+def serve_sw():
+    return send_from_directory('static', 'sw.js')
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
